@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.click:hover{
+    background: green -500px;
+    
+}
+.alert:hover{
+    background-color: aqua;
+}
+.image{
+    background-image:url('../images/background.jpeg') ;
+    background-size: cover;
+}
+.click2:hover{
+    background:linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #ba7ba6 75%);
+}
+.btn{
+    background-color:lightblue;
+    margin-top: 150px;
+    margin-left: 350px;
+}
